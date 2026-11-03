@@ -1,0 +1,23 @@
+{
+  "root": "data/raw/flower_photos",
+  "class_names": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ],
+  "sizes": {
+    "train": 2569,
+    "val": 550,
+    "test": 551
+  },
+  "class_counts": {
+    "daisy": 633,
+    "dandelion": 898,
+    "roses": 641,
+    "sunflowers": 699,
+    "tulips": 799
+  },
+  "seed": 42
+}

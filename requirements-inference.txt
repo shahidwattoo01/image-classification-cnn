@@ -1,0 +1,4 @@
+# Minimal deployment dependencies for running a model.tflite with cnnclf/predictor.py
+numpy>=1.26
+opencv-python>=4.9
+ai-edge-litert>=1.0

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+data/raw/
+logs_*.txt
+*.mp4
+
+# Trained artifacts: keep only the small deployable TFLite model + its metadata and curves.
+artifacts/*
+!artifacts/mobilenet_v2/
+artifacts/mobilenet_v2/*
+!artifacts/mobilenet_v2/model.tflite
+!artifacts/mobilenet_v2/labels.json
+!artifacts/mobilenet_v2/history.json
+!artifacts/mobilenet_v2/training_curves.png

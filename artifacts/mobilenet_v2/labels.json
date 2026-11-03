@@ -1,0 +1,14 @@
+{
+  "model": "mobilenet_v2",
+  "class_names": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ],
+  "image_size": [
+    224,
+    224
+  ]
+}

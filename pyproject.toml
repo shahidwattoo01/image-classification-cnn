@@ -1,0 +1,10 @@
+[project]
+name = "cnn-image-classifier"
+version = "1.0.0"
+description = "Multi-class image classification: CNN from scratch vs. transfer learning (MobileNetV2 / ResNet50V2), with TFLite + OpenCV real-time inference."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning", "ignore::FutureWarning"]
